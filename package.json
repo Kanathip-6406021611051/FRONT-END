@@ -1,0 +1,34 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier --write *.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kanathip-6406021611051/FRONT-END.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kanathip-6406021611051/FRONT-END/issues"
+  },
+  "homepage": "https://github.com/Kanathip-6406021611051/FRONT-END#readme",
+  "devDependencies": {
+    "prettier": "^3.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "sequelize": "^6.33.0",
+    "sqlite3": "5.0.2"
+  }
+}
